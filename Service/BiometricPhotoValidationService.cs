@@ -1,12 +1,10 @@
-﻿using ConsoleApp2;
-using ConsoleApp2.Service;
+﻿using BiometricPhotoChecker;
+using BiometricPhotoChecker.Service;
 using Emgu.CV;
 using Emgu.CV.CvEnum;
-using Emgu.CV.Structure; 
-using System;
+using Emgu.CV.Structure;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.IO;
 
 public class BiometricPhotoValidationService : IBiometricPhotoValidationService
 {
